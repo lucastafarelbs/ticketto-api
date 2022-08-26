@@ -1,10 +1,9 @@
-import { encryptString } from '../../../utils/security.js'
 const handler = async function (request, reply) {
   try {
     const { 
       name, 
       document,
-      entityType
+      entityTypeId
     } = request.body
 
     await this
@@ -12,7 +11,7 @@ const handler = async function (request, reply) {
       .insert( { 
         name, 
         document,
-        entity_type_id: entityType
+        entity_type_id: entityTypeId
       })
 
     reply.send('created')
