@@ -26,6 +26,7 @@
     - localhost:3550
   - criar variável de ambiente "token" e colocar o token obtido no login
 
-
+### Para executar o banco localmente:
+  - Arquivo creates.sql e seed.sql dentro do diretório "db" no fonte
 
 

@@ -1,5 +1,4 @@
 const dateTimeToUTC = dateTime => {
-  debugger
   if (!dateTime) return 
   if (typeof dateTime !== 'string') return
   const dateTimeLowerCase = dateTime.toLowerCase()

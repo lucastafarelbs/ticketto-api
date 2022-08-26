@@ -11,12 +11,10 @@ insert into event_type (description) values ('Híbrido');
 -- payment_method
 insert into payment_method (description) values ('Cartão de crédito');
 insert into payment_method (description) values ('Boleto');
-insert into payment_method (description) values ('Pix');
-insert into payment_method (description) values ('Dinheiro');
 
 -- payment_status
 insert into payment_status (description) values ('Reservado');
-insert into payment_status (description) values ('Não pago');
+insert into payment_status (description) values ('Processando');
 insert into payment_status (description) values ('Recusado');
 insert into payment_status (description) values ('Pago');
 
