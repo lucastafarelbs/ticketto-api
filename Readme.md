@@ -20,6 +20,11 @@
 - localhost:3550/
   - Deve exibir uma mensagem de que tudo está ok.
 - Arquivo insomnia.json no trello
+  - Criar usuário
+  - Efetuar login
+  - criar variável de ambiente "server" e colocar o endereço local:
+    - localhost:3550
+  - criar variável de ambiente "token" e colocar o token obtido no login
 
 
 
